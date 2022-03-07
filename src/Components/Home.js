@@ -1,1 +1,1 @@
-import REACT form reamy 
+import React from 'react';
