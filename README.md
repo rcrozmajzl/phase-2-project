@@ -1,3 +1,19 @@
+Phase 2 Project 
+
+API: https://github.com/fisenkodv/dictum
+
+> portal/entrance screen
+> home (search function and quote and instructions)
+> header (page title)
+> navBar (shows all artists as clickable links, plus search)
+> category component (shows all artists in that category as clickable links)
+> author page (title of author's name, renders quotes)
+> quotes (contains all quotes attributed to the author on that page)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
