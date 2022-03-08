@@ -1,0 +1,372 @@
+{
+    "quotes": [
+        {
+            "id": 1,
+            "quoteText": "I've had to learn to fight all my life - got to learn to keep smiling. If you smile things will work out." ,
+            "author": "Serena Williams" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 2,
+            "quoteText": "I'm an athlete and I'm black, and a lot of black athletes go broke. I do not want to become a statistic, so maybe I overcompensate. But I'm paranoid. Oprah told me a long time ago, 'You sign every check. Never let anyone sign any checks.'" ,
+            "author": "Serena Williams" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 3,
+            "quoteText": "The glory is being happy. The glory is not winning here or winning there. The glory is enjoying practicing, enjoy every day, enjoying to work hard, trying to be a better player than before." ,
+            "author": "Rafael Nadal" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 4,
+            "quoteText": "Being home alone at night makes me a bit nervous. If I'm at home alone, I have to sleep on the sofa - I can't face going to bed. I'm there with the TV on and all the lights on. I'm not very brave about anything in life. In tennis, yes. In everything else, not very." ,
+            "author": "Rafael Nadal" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 5,
+            "quoteText": "A huge adrenaline rush is usually followed by a pretty low point." ,
+            "author": "Bode Miller" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 6,
+            "quoteText": "People want athletes to cater to their image of what an athlete should be, but they also want them to fail so they can feel like their screwups are all right. If I make a priority shift, I'll make it because it's best for me.'" ,
+            "author": "Bode Miller" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 7,
+            "quoteText": "You win a race, the next race it's a question mark. Are you still the best or not? That's what is funny. But that's what is interesting. And that's what is challenging. You have to prove yourself every time." ,
+            "author": "Michael Schumacher" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 8,
+            "quoteText": "I retired simply because I didn't have the passion and motivation anymore; I was tired. At the time I thought, 'Well, I had a great time, there is the end.' At some moment, there is the right time to call it an end." ,
+            "author": "Michael Schumacher" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 9,
+            "quoteText": "I see myself as the best footballer in the world. If you don't believe you are the best, then you will never achieve all that you are capable of." ,
+            "author": "Cristiano Ronaldo" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 10,
+            "quoteText": "I think sometimes the best training is to rest." ,
+            "author": "Cristiano Ronaldo" ,
+            "category": "Athlete"
+        },
+        {
+            "id": 11,
+            "quoteText": "We are what we repeatedly do. Excellence, then, is not an act but a habit." ,
+            "author": "Aristotle" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 12,
+            "quoteText": "The energy of the mind is the essence of life.'" ,
+            "author": "Aristotle" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 13,
+            "quoteText": "Beauty in things exists in the mind which contemplates them." ,
+            "author": "David Hume" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 14,
+            "quoteText": "Heaven and hell suppose two distinct species of men, the good and the bad. But the greatest part of mankind float betwixt vice and virtue." ,
+            "author": "David Hume" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 15,
+            "quoteText": "War is an ugly thing, but not the ugliest of things. The decayed and degraded state of moral and patriotic feeling which thinks that nothing is worth war is much worse." ,
+            "author": "John Stuart Mill" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 16,
+            "quoteText": "I have learned to seek my happiness by limiting my desires, rather than in attempting to satisfy them." ,
+            "author": "John Stuart Mill" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 17,
+            "quoteText": "Only the guy who isn't rowing has time to rock the boat." ,
+            "author": "Jean-Paul Sartre" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 18,
+            "quoteText": "The best work is not what is most difficult for you; it is what you do best." ,
+            "author": "Jean-Paul Sartre" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 19,
+            "quoteText": "Wisdom begins in wonder." ,
+            "author": "Socrates" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 20,
+            "quoteText": "By all means, marry. If you get a good wife, you'll become happy; if you get a bad one, you'll become a philosopher." ,
+            "author": "Socrates" ,
+            "category": "Philosopher-Religious-Figure"
+        },
+        {
+            "id": 21,
+            "quoteText": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it." ,
+            "author": "Steve Jobs" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 22,
+            "quoteText": "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life." ,
+            "author": "Steve Jobs" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 23,
+            "quoteText": "I would like to die on Mars. Just not on impact." ,
+            "author": "Elon Musk" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 24,
+            "quoteText": "When Henry Ford made cheap, reliable cars people said, 'Nah, what's wrong with a horse?' That was a huge bet he made, and it worked." ,
+            "author": "Elon Musk" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 25,
+            "quoteText": "To invent you need a good imagination and a pile of junk." ,
+            "author": "Thomas A Edison" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 26,
+            "quoteText": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time." ,
+            "author": "Thomas A Edison" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 27,
+            "quoteText": "One of the things that got me interested in genetics was the relationship between genes and environment. We are all dealt a certain deck of cards, but our environment can influence the outcomes." ,
+            "author": "Anne Wojcicki" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 28,
+            "quoteText": "The reality is that the only way change comes is when you lead by example." ,
+            "author": "Anne Wojcicki" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 29,
+            "quoteText": "A ship in port is safe, but that's not what ships are built for." ,
+            "author": "Grace Hopper" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 30,
+            "quoteText": "No computer is ever going to ask a new, reasonable question. It takes trained people to do that." ,
+            "author": "Grace Hopper" ,
+            "category": "Tech-Inventor"
+        },
+        {
+            "id": 31,
+            "quoteText": "I walk slowly, but I never walk backward." ,
+            "author": "Abraham Lincoln" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 32,
+            "quoteText": "The best way to predict your future is to create it.'" ,
+            "author": "Abraham Lincoln" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 33,
+            "quoteText": "Do one thing every day that scares you." ,
+            "author": "Eleanor Roosevelt" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 34,
+            "quoteText": "Remember always that you not only have the right to be an individual, you have an obligation to be one." ,
+            "author": "Eleanor Roosevelt" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 35,
+            "quoteText": "One thing that education can do is it can provide us with an opportunity to understand one another better, and so while I've spent a lot of my time in the world of politics, I've always felt that it is really not politics that will solve this for us." ,
+            "author": "Condoleeza Rice" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 36,
+            "quoteText": "What you know today can affect what you do tomorrow. But what you know today cannot affect what you did yesterday." ,
+            "author": "Condoleeza Rice" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 37,
+            "quoteText": "There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered." ,
+            "author": "Nelson Mandela" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 38,
+            "quoteText": "There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living." ,
+            "author": "Nelson Mandela" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 39,
+            "quoteText": "Trust yourself. Create the kind of self that you will be happy to live with all your life. Make the most of yourself by fanning the tiny, inner sparks of possibility into flames of achievement." ,
+            "author": "Golda Meir" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 40,
+            "quoteText": "You'll never find a better sparring partner than adversity." ,
+            "author": "Golda Meir" ,
+            "category": "Political figure"
+        },
+        {
+            "id": 41,
+            "quoteText": "Life is what happens when you are making other plans." ,
+            "author": "John Lennon" ,
+            "category": "Artist"
+        },
+        {
+            "id": 42,
+            "quoteText": "A dream you dream alone is only a dream. A dream you dream together is reality." ,
+            "author": "John Lennon" ,
+            "category": "Artist"
+        },
+        {
+            "id": 43,
+            "quoteText": "If everything was perfect, you would never learn and you would never grow." ,
+            "author": "Beyonce" ,
+            "category": "Artist"
+        },
+        {
+            "id": 44,
+            "quoteText": "I think it's healthy for a person to be nervous. It means you care - that you work hard and want to give a great performance. You just have to channel that nervous energy into the show." ,
+            "author": "Beyonce" ,
+            "category": "Artist"
+        },
+        {
+            "id": 45,
+            "quoteText": "Without deviation from the norm, progress is not possible." ,
+            "author": "Frank Zappa" ,
+            "category": "Artist"
+        },
+        {
+            "id": 46,
+            "quoteText": "The computer can't tell you the emotional story. It can give you the exact mathematical design, but what's missing is the eyebrows." ,
+            "author": "Frank Zappa" ,
+            "category": "Artist"
+        },
+        {
+            "id": 47,
+            "quoteText": "Do the things you believe in, in the name of love. And know that, you aren not alone. We all have doubts and fear." ,
+            "author": "Carole King" ,
+            "category": "Artist"
+        },
+        {
+            "id": 48,
+            "quoteText": "When I was younger, I was kind of fearless. I think it takes more courage to do things when you know more. I was completely naive, and I was like, 'Why can't I do anything I want to do?" ,
+            "author": "Carole King" ,
+            "category": "Artist"
+        },
+        {
+            "id": 49,
+            "quoteText": "You see, we are here, as far as I can tell, to help each other; our brothers, our sisters, our friends, our enemies. That is to help each other and not hurt each other." ,
+            "author": "Stevie Ray Vaughan" ,
+            "category": "Artist"
+        },
+        {
+            "id": 50,
+            "quoteText": "What I am trying to get across to you; is please take of yourselves and those that you love; because that is what we are hear for, that's all we got, and that is all we can take with us. Are you with me?" ,
+            "author": "Stevie Ray Vaughan" ,
+            "category": "Artist"
+        },
+        {
+            "id": 51,
+            "quoteText": "Governments never learn. Only people learn." ,
+            "author": "Milton Friedman" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 52,
+            "quoteText": "There's no such thing as a free lunch." ,
+            "author": "Milton Friedman" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 53,
+            "quoteText": "If you will live like no one else, later you can live like no one else." ,
+            "author": "Dave Ramsey" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 54,
+            "quoteText": "We buy things we don't need with money we don't have to impress people we don't like." ,
+            "author": "Dave Ramsey" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 55,
+            "quoteText": "Sometimes your best investments are the ones you do not make." ,
+            "author": "Donald Trump" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 56,
+            "quoteText": "Getting rich is easy. Staying rich is harder." ,
+            "author": "Donald Trump" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 57,
+            "quoteText": "You are only poor if you give up. The most important thing is that you did something. Most people only talk and dream of getting rich. You have done something." ,
+            "author": "Robert T. Kiyosaki" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 58,
+            "quoteText": "It's not what you say out of your mouth that determines your life, it's what you whisper to yourself that has the most power!" ,
+            "author": "Robert T. Kiyosaki" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 59,
+            "quoteText": "Price is what you pay, value is what you get." ,
+            "author": "Warren Buffet" ,
+            "category": "Financial figure"
+        },
+        {
+            "id": 60,
+            "quoteText": "Rule No. 1 is never lose money. Rule No. 2 is never forget Rule No. 1." ,
+            "author": "Warren Buffet" ,
+            "category": "Financial figure"
+        }
+    ],
+
+
+    "comments": [
+        {
+            "id": 1,
+            "content": ""
+        }
+    ]
+}

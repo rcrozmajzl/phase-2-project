@@ -1,19 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AuthorCard from './AuthorCard';
 
-// we should probably do the fetching and setting state in NavBar so it's 
+// I moved the fetching and setting state in Home so they're 
 //available to all categories, then pass down quotes as prop to here
 
-function CatArtistsAuthorsEntertainers({ authors }) {
+function CatArtistsAuthorsEntertainers({ onAuthorClick, quotes }) {
 
-    const [quotes, setQuotes] = useState([])
+    // const [quotes, setQuotes] = useState([])
 
-    const {id} = authors;
+    // const {id} = authors;
+
+    // function handleClick() {
+    //     fetch(`https://api.fisenko.net/v1/authors/en/${id}/quotes?query=&limit=1&offset=0`)
+    //     .then(response => response.json())
+    //     .then(quotesData => setQuotes(quotesData))
+    // }
 
     function handleClick() {
-        fetch(`https://api.fisenko.net/v1/authors/en/${id}/quotes?query=&limit=1&offset=0`)
-        .then(response => response.json())
-        .then(quotesData => setQuotes(quotesData))
+        onAuthorClick()
     }
 
     return (

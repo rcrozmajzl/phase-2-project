@@ -6,18 +6,26 @@ import authors from '../../authors.json';
 function Home() {
 
     const [searchText, setSearchText] = useState('');
+    const [quotes, setQuotes] = useState([]);
+    
+    const {id} = authors;
 
     function onSearchInput(searchedValue) {
         setSearchText(searchedValue)
     }
 
+    function onAuthorClick() {
+        fetch(`https://api.fisenko.net/v1/authors/en/${id}/quotes?query=&limit=1&offset=0`)
+        .then(response => response.json())
+        .then(quotesData => setQuotes(quotesData))
+    }
+
     const authorToDisplay = authors.filter((author) => author.name.toLowerCase().includes(searchText.toLowerCase()))
 
-    // sending authors and authorToDisplay down to NavBar to pass down to Categories
     return (
         <div>
             <Header onSearchInput={onSearchInput}/>
-            <NavBar authorToDisplay={authorToDisplay} authors={authors}/> 
+            <NavBar authorToDisplay={authorToDisplay} quotes={quotes} onAuthorClick={onAuthorClick}/> 
         </div>
     )
 }
