@@ -1,8 +1,8 @@
 import React from 'react'
 
-function CommentDisplay() {
+function CommentDisplay({comments}) {
     return (
-        <div>CommentDisplay</div>
+        <div>{comments}</div>
     )
 }
 
