@@ -13,10 +13,10 @@ function App() {
 
       // const [searchText, setSearchText] = useState('');
       const [quotesInfo, setQuotesInfo] = useState([]);
-      const [categories, setCategories] = useState([])
+      // const [categories, setCategories] = useState([])
     
       const QUOTESDATABASE = 'http://localhost:8001/quotes';
-      const CATEGORIESDATABASE = 'http://localhost:8001/categories';
+      // const CATEGORIESDATABASE = 'http://localhost:8001/categories';
   
       useEffect(() => {
           fetch(QUOTESDATABASE)
@@ -24,11 +24,11 @@ function App() {
           .then(quotesData => setQuotesInfo(quotesData))
       }, [])
 
-      useEffect(() => {
-        fetch(CATEGORIESDATABASE)
-        .then(res => res.json())
-        .then(categoriesData => setCategories(categoriesData))
-    }, [])
+    //   useEffect(() => {
+    //     fetch(CATEGORIESDATABASE)
+    //     .then(res => res.json())
+    //     .then(categoriesData => setCategories(categoriesData))
+    // }, [])
 
 
       // function onSearchInput(searchedValue) {
@@ -40,15 +40,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <NavBar quotesInfo={quotesInfo} categories={categories}/>
+      <NavBar quotesInfo={quotesInfo}/>
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/:category">
+        <Route path="/category/:categoryId">
           <Category />
         </Route>
-        <Route exact path="/:author">
+        <Route exact path="/author/:authorId">
           <AuthorCard />
         </Route>
         <Route exact path="/:author/comments">
