@@ -9,7 +9,7 @@ function Header() {
 
     return (
         <div className='header'>
-            <Link exact to='/'>
+            <Link to='/'>
                 <img src='{logo}' alt='logo' />
             </Link>
             <h1>Get Inspired</h1>

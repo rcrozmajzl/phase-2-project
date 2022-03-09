@@ -1,9 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import { categories} from '../categories';
 
-function Category({ type, authors }) {
+function Category() {
+
+
+    const {categoryId} = useParams();
+
+    const category = categories.find((category) => category.id === parseInt(categoryId))
+
+    if (category === undefined) {
+        return <h2>Category not found!</h2>;
+    }
+
+    const {type, authorIds} = category;
+    const authorLinks = authorIds.map((id) => <Link key={id} to={`/author/${id}`}> <li>{id}</li> </Link>)
     
-    const authorLinks = authors.map((author) => <Link key={author} author={author} to="/:author"/>)
     return (
         <div>
             <h1>{type}</h1>

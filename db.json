@@ -3,390 +3,422 @@
         {
             "id": 1,
             "quoteText": "I've had to learn to fight all my life - got to learn to keep smiling. If you smile things will work out." ,
+            "authorId": 1,
             "author": "Serena Williams" ,
             "category": "Athletes"
         },
         {
             "id": 2,
             "quoteText": "I'm an athlete and I'm black, and a lot of black athletes go broke. I do not want to become a statistic, so maybe I overcompensate. But I'm paranoid. Oprah told me a long time ago, 'You sign every check. Never let anyone sign any checks.'" ,
+            "authorId": 1,
             "author": "Serena Williams" ,
             "category": "Athletes"
         },
         {
             "id": 3,
             "quoteText": "The glory is being happy. The glory is not winning here or winning there. The glory is enjoying practicing, enjoy every day, enjoying to work hard, trying to be a better player than before." ,
+            "authorId": 2,
             "author": "Rafael Nadal" ,
             "category": "Athletes"
         },
         {
             "id": 4,
             "quoteText": "Being home alone at night makes me a bit nervous. If I'm at home alone, I have to sleep on the sofa - I can't face going to bed. I'm there with the TV on and all the lights on. I'm not very brave about anything in life. In tennis, yes. In everything else, not very." ,
+            "authorId": 2,
             "author": "Rafael Nadal" ,
             "category": "Athletes"
         },
         {
             "id": 5,
             "quoteText": "A huge adrenaline rush is usually followed by a pretty low point." ,
+            "authorId": 3,
             "author": "Bode Miller" ,
             "category": "Athletes"
         },
         {
             "id": 6,
             "quoteText": "People want athletes to cater to their image of what an athlete should be, but they also want them to fail so they can feel like their screwups are all right. If I make a priority shift, I'll make it because it's best for me.'" ,
+            "authorId": 3,
             "author": "Bode Miller" ,
             "category": "Athletes"
         },
         {
             "id": 7,
             "quoteText": "You win a race, the next race it's a question mark. Are you still the best or not? That's what is funny. But that's what is interesting. And that's what is challenging. You have to prove yourself every time." ,
+            "authorId": 4,
             "author": "Michael Schumacher" ,
             "category": "Athletes"
         },
         {
             "id": 8,
             "quoteText": "I retired simply because I didn't have the passion and motivation anymore; I was tired. At the time I thought, 'Well, I had a great time, there is the end.' At some moment, there is the right time to call it an end." ,
+            "authorId": 4,
             "author": "Michael Schumacher" ,
             "category": "Athletes"
         },
         {
             "id": 9,
             "quoteText": "I see myself as the best footballer in the world. If you don't believe you are the best, then you will never achieve all that you are capable of." ,
+            "authorId": 5,
             "author": "Cristiano Ronaldo" ,
             "category": "Athletes"
         },
         {
             "id": 10,
             "quoteText": "I think sometimes the best training is to rest." ,
+            "authorId": 5,
             "author": "Cristiano Ronaldo" ,
             "category": "Athletes"
         },
         {
             "id": 11,
             "quoteText": "We are what we repeatedly do. Excellence, then, is not an act but a habit." ,
+            "authorId": 6,
             "author": "Aristotle" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 12,
             "quoteText": "The energy of the mind is the essence of life.'" ,
+            "authorId": 6,
             "author": "Aristotle" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 13,
             "quoteText": "Beauty in things exists in the mind which contemplates them." ,
+            "authorId": 7,
             "author": "David Hume" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 14,
             "quoteText": "Heaven and hell suppose two distinct species of men, the good and the bad. But the greatest part of mankind float betwixt vice and virtue." ,
+            "authorId": 7,
             "author": "David Hume" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 15,
             "quoteText": "War is an ugly thing, but not the ugliest of things. The decayed and degraded state of moral and patriotic feeling which thinks that nothing is worth war is much worse." ,
+            "authorId": 8,
             "author": "John Stuart Mill" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 16,
             "quoteText": "I have learned to seek my happiness by limiting my desires, rather than in attempting to satisfy them." ,
+            "authorId": 8,
             "author": "John Stuart Mill" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 17,
             "quoteText": "Only the guy who isn't rowing has time to rock the boat." ,
+            "authorId": 9,
             "author": "Jean-Paul Sartre" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 18,
             "quoteText": "The best work is not what is most difficult for you; it is what you do best." ,
+            "authorId": 9,
             "author": "Jean-Paul Sartre" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 19,
             "quoteText": "Wisdom begins in wonder." ,
+            "authorId": 10,
             "author": "Socrates" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 20,
             "quoteText": "By all means, marry. If you get a good wife, you'll become happy; if you get a bad one, you'll become a philosopher." ,
+            "authorId": 10,
             "author": "Socrates" ,
             "category": "Philosophers and Religious Figures"
         },
         {
             "id": 21,
             "quoteText": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it." ,
+            "authorId": 11,
             "author": "Steve Jobs" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 22,
             "quoteText": "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life." ,
+            "authorId": 11,
             "author": "Steve Jobs" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 23,
             "quoteText": "I would like to die on Mars. Just not on impact." ,
+            "authorId": 12,
             "author": "Elon Musk" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 24,
             "quoteText": "When Henry Ford made cheap, reliable cars people said, 'Nah, what's wrong with a horse?' That was a huge bet he made, and it worked." ,
+            "authorId": 12,
             "author": "Elon Musk" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 25,
             "quoteText": "To invent you need a good imagination and a pile of junk." ,
+            "authorId": 13,
             "author": "Thomas A Edison" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 26,
             "quoteText": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time." ,
+            "authorId": 14,
             "author": "Thomas A Edison" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 27,
             "quoteText": "One of the things that got me interested in genetics was the relationship between genes and environment. We are all dealt a certain deck of cards, but our environment can influence the outcomes." ,
+            "authorId": 14,
             "author": "Anne Wojcicki" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 28,
             "quoteText": "The reality is that the only way change comes is when you lead by example." ,
+            "authorId": 15,
             "author": "Anne Wojcicki" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 29,
             "quoteText": "A ship in port is safe, but that's not what ships are built for." ,
+            "authorId": 15,
             "author": "Grace Hopper" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 30,
             "quoteText": "No computer is ever going to ask a new, reasonable question. It takes trained people to do that." ,
+            "authorId": 16,
             "author": "Grace Hopper" ,
             "category": "Tech Icons and Inventors"
         },
         {
             "id": 31,
             "quoteText": "I walk slowly, but I never walk backward." ,
+            "authorId": 16,
             "author": "Abraham Lincoln" ,
             "category": "Political Figures"
         },
         {
             "id": 32,
             "quoteText": "The best way to predict your future is to create it.'" ,
+            "authorId": 17,
             "author": "Abraham Lincoln" ,
             "category": "Political Figures"
         },
         {
             "id": 33,
             "quoteText": "Do one thing every day that scares you." ,
+            "authorId": 17,
             "author": "Eleanor Roosevelt" ,
             "category": "Political Figures"
         },
         {
             "id": 34,
             "quoteText": "Remember always that you not only have the right to be an individual, you have an obligation to be one." ,
+            "authorId": 18,
             "author": "Eleanor Roosevelt" ,
             "category": "Political Figures"
         },
         {
             "id": 35,
             "quoteText": "One thing that education can do is it can provide us with an opportunity to understand one another better, and so while I've spent a lot of my time in the world of politics, I've always felt that it is really not politics that will solve this for us." ,
+            "authorId": 18,
             "author": "Condoleeza Rice" ,
             "category": "Political Figures"
         },
         {
             "id": 36,
             "quoteText": "What you know today can affect what you do tomorrow. But what you know today cannot affect what you did yesterday." ,
+            "authorId": 19,
             "author": "Condoleeza Rice" ,
             "category": "Political Figures"
         },
         {
             "id": 37,
             "quoteText": "There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered." ,
+            "authorId": 19,
             "author": "Nelson Mandela" ,
             "category": "Political Figures"
         },
         {
             "id": 38,
             "quoteText": "There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living." ,
+            "authorId": 20,
             "author": "Nelson Mandela" ,
             "category": "Political Figures"
         },
         {
             "id": 39,
             "quoteText": "Trust yourself. Create the kind of self that you will be happy to live with all your life. Make the most of yourself by fanning the tiny, inner sparks of possibility into flames of achievement." ,
+            "authorId": 20,
             "author": "Golda Meir" ,
             "category": "Political Figures"
         },
         {
             "id": 40,
             "quoteText": "You'll never find a better sparring partner than adversity." ,
+            "authorId": 20,
             "author": "Golda Meir" ,
             "category": "Political Figures"
         },
         {
             "id": 41,
             "quoteText": "Life is what happens when you are making other plans." ,
+            "authorId": 21,
             "author": "John Lennon" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 42,
             "quoteText": "A dream you dream alone is only a dream. A dream you dream together is reality." ,
+            "authorId": 21,
             "author": "John Lennon" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 43,
             "quoteText": "If everything was perfect, you would never learn and you would never grow." ,
+            "authorId": 22,
             "author": "Beyonce" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 44,
             "quoteText": "I think it's healthy for a person to be nervous. It means you care - that you work hard and want to give a great performance. You just have to channel that nervous energy into the show." ,
+            "authorId": 22,
             "author": "Beyonce" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 45,
             "quoteText": "Without deviation from the norm, progress is not possible." ,
+            "authorId": 23,
             "author": "Frank Zappa" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 46,
             "quoteText": "The computer can't tell you the emotional story. It can give you the exact mathematical design, but what's missing is the eyebrows." ,
+            "authorId": 23,
             "author": "Frank Zappa" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 47,
             "quoteText": "Do the things you believe in, in the name of love. And know that, you aren not alone. We all have doubts and fear." ,
+            "authorId": 24,
             "author": "Carole King" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 48,
             "quoteText": "When I was younger, I was kind of fearless. I think it takes more courage to do things when you know more. I was completely naive, and I was like, 'Why can't I do anything I want to do?" ,
+            "authorId": 24,
             "author": "Carole King" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 49,
             "quoteText": "You see, we are here, as far as I can tell, to help each other; our brothers, our sisters, our friends, our enemies. That is to help each other and not hurt each other." ,
+            "authorId": 25,
             "author": "Stevie Ray Vaughan" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 50,
             "quoteText": "What I am trying to get across to you; is please take of yourselves and those that you love; because that is what we are hear for, that's all we got, and that is all we can take with us. Are you with me?" ,
+            "authorId": 25,
             "author": "Stevie Ray Vaughan" ,
             "category": "Artists, Authors, and Entertainers"
         },
         {
             "id": 51,
             "quoteText": "Governments never learn. Only people learn." ,
+            "authorId": 26,
             "author": "Milton Friedman" ,
             "category": "Financial Gurus"
         },
         {
             "id": 52,
             "quoteText": "There's no such thing as a free lunch." ,
+            "authorId": 26,
             "author": "Milton Friedman" ,
             "category": "Financial Gurus"
         },
         {
             "id": 53,
             "quoteText": "If you will live like no one else, later you can live like no one else." ,
+            "authorId": 27,
             "author": "Dave Ramsey" ,
             "category": "Financial Gurus"
         },
         {
             "id": 54,
             "quoteText": "We buy things we don't need with money we don't have to impress people we don't like." ,
+            "authorId": 27,
             "author": "Dave Ramsey" ,
             "category": "Financial Gurus"
         },
         {
             "id": 55,
             "quoteText": "Sometimes your best investments are the ones you do not make." ,
+            "authorId": 28,
             "author": "Donald Trump" ,
             "category": "Financial Gurus"
         },
         {
             "id": 56,
             "quoteText": "Getting rich is easy. Staying rich is harder." ,
+            "authorId": 28,
             "author": "Donald Trump" ,
             "category": "Financial Gurus"
         },
         {
             "id": 57,
             "quoteText": "You are only poor if you give up. The most important thing is that you did something. Most people only talk and dream of getting rich. You have done something." ,
+            "authorId": 29,
             "author": "Robert T. Kiyosaki" ,
             "category": "Financial Gurus"
         },
         {
             "id": 58,
             "quoteText": "It's not what you say out of your mouth that determines your life, it's what you whisper to yourself that has the most power!" ,
+            "authorId": 29,
             "author": "Robert T. Kiyosaki" ,
             "category": "Financial Gurus"
         },
         {
             "id": 59,
             "quoteText": "Price is what you pay, value is what you get." ,
+            "authorId": 30,
             "author": "Warren Buffet" ,
             "category": "Financial Gurus"
         },
         {
             "id": 60,
             "quoteText": "Rule No. 1 is never lose money. Rule No. 2 is never forget Rule No. 1." ,
+            "authorId": 30,
             "author": "Warren Buffet" ,
             "category": "Financial Gurus"
-        }
-    ],
-
-
-    "categories": [
-        {
-            "type": "Athletes",
-            "authors": ["Serena Williams", "Rafal Nadal", "Bode Miller", "Michael Schumacher", "Cristiano Ronaldo" ]
-        },
-        {
-            "type": "Philosophers and Religious Figures",
-            "authors": ["Aristotle", "David Hume", "John Stuart Mill", "Jean-Paul Sartre", "Socrates"]
-        },
-        {
-            "type": "Tech Icons and Inventors",
-            "authors": ["Steve Jobs", "Elon Musk", "Thomas A Edison", "Anne Wojcicki", "Grace Hopper"]
-        },
-        {
-            "type": "Political Figures",
-            "authors": ["Abraham Lincoln", "Eleanor Roosevelt", "Condoleeza Rice", "Nelson Mandela", "Golda Meir"]
-        },
-        {
-            "type": "Artists, Authors, and Entertainers",
-            "authors": ["John Lennon", "Beyonce", "Frank Zappa", "Carole King", "Stevie Ray Vaughan"]
-        },
-        {
-            "type": "Financial Gurus",
-            "authors": ["Milton Friedman", "Dave Ramsey", "Donald Trump", "Robert T. Kiyosaki", "Warren Buffet"]
         }
     ],
 
