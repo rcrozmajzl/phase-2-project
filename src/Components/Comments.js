@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import CommentForm from './CommentForm';
 import CommentDisplay from './CommentDisplay';
 
@@ -9,7 +10,10 @@ function Comments() {
     const [commentArray, setCommentArray] = useState([]);
     const [commentInput, setCommentInput] = useState("");
 
-    const comment = commentArray.map(comments => <CommentDisplay key={comments.id} {...comments} />)
+    const {authorId} = useParams();
+
+    const comment = commentArray.filter((comments) => comments.authorId === authorId)
+    .map(comments => <CommentDisplay key={comments.id} {...comments} />)
 
     useEffect(() => {
         fetch(API)
@@ -20,8 +24,7 @@ function Comments() {
     function handleSubmit(e) {
         e.preventDefault();
 
-        const commentData = {content: commentInput}
-        const newComment = [...commentInput, commentData]
+        const commentData = {content: commentInput, authorId}
 
         setCommentInput("")
             fetch(API, {
