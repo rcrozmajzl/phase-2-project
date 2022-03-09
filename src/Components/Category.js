@@ -13,9 +13,10 @@ function Category() {
         return <h2>Category not found!</h2>;
     }
 
-    const {type, authorIds} = category;
-    const authorLinks = authorIds.map((id) => <Link key={id} to={`/author/${id}`}> <li>{id}</li> </Link>)
-    
+    const {type, authors} = category;
+
+    const authorLinks = authors.map((author) => <Link key={author.authorId} to={`/author/${author.authorId}`}> <li>{author.authorName}</li> </Link>)
+
     return (
         <div>
             <h1>{type}</h1>
