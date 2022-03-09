@@ -28,7 +28,7 @@ function Comments() {
                 method: "POST",
                 headers: {"Content-Type": "application/json",
             },
-            body: JSON.stringify()
+            body: JSON.stringify(commentData)
             })
             .then(res => res.json())
             .then(comment => setCommentArray([...commentArray, comment]))
