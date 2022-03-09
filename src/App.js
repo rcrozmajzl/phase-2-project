@@ -12,16 +12,17 @@ import Comments from './Components/Comments';
 function App() {
 
       // const [searchText, setSearchText] = useState('');
-      const [quotes, setQuotes] = useState([]);
+      const [quotesInfo, setQuotesInfo] = useState([]);
     
       const DATABASE = 'http://localhost:8001/quotes';
   
       useEffect(() => {
           fetch(DATABASE)
           .then(res => res.json())
-          .then(quotesData => console.log(quotesData))
+          .then(quotesData => setQuotesInfo(quotesData))
       }, [])
-  
+
+      console.log(quotesInfo)
       // function onSearchInput(searchedValue) {
       //     setSearchText(searchedValue)
       // }
@@ -31,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <NavBar quotes={quotes}/>
+      <NavBar quotesInfo={quotesInfo}/>
       <Switch>
         <Route exact path="/">
           <Home />

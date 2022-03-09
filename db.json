@@ -363,6 +363,34 @@
     ],
 
 
+    "categories": [
+        {
+            "type": "Athletes",
+            "authors": ["Serena Williams", "Rafal Nadal", "Bode Miller", "Michael Schumacher", "Cristiano Ronaldo" ]
+        },
+        {
+            "type": "Philosophers and Religious Figures",
+            "authors": ["Aristotle", "David Hume", "John Stuart Mill", "Jean-Paul Sartre", "Socrates"]
+        },
+        {
+            "type": "Tech Icons and Inventors",
+            "authors": ["Steve Jobs", "Elon Musk", "Thomas A Edison", "Anne Wojcicki", "Grace Hopper"]
+        },
+        {
+            "type": "Political Figures",
+            "authors": ["Abraham Lincoln", "Eleanor Roosevelt", "Condoleeza Rice", "Nelson Mandela", "Golda Meir"]
+        },
+        {
+            "type": "Artists, Authors, and Entertainers",
+            "authors": ["John Lennon", "Beyonce", "Frank Zappa", "Carole King", "Stevie Ray Vaughan"]
+        },
+        {
+            "type": "Financial Gurus",
+            "authors": ["Milton Friedman", "Dave Ramsey", "Donald Trump", "Robert T. Kiyosaki", "Warren Buffet"]
+        }
+    ],
+
+
     "comments": [
         {
 
