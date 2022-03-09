@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Quote() {
+function Quote({ quoteText }) {
     return (
-        <div>Quote</div>
+        <div>
+            <p>{quoteText}</p>
+        </div>
     )
 }
 
