@@ -39,6 +39,7 @@ function Comments() {
             {comment}
             <CommentForm 
                 handleSubmit={handleSubmit}
+                setCommentInput={setCommentInput}
                 commentInput={commentInput}
             />
         </div>

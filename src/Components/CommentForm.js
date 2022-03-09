@@ -1,14 +1,15 @@
 import React from 'react'
 
-function CommentForm() {
+function CommentForm({ handleSubmit, commentInput, setCommentInput }) {
     return (
         <div>
-            <form className="comment-form" onSubmit={() => console.log('Submit')}>
+            <form className="comment-form" onSubmit={handleSubmit}>
                 <input
                     type="text"
                     id="comment"
                     placeholder="Comment"
-                    value=""
+                    value={commentInput}
+                    onChange={e => setCommentInput(e.target.value)}
                 />
                 <button type="submit">Submit</button>
             </form>
@@ -16,4 +17,4 @@ function CommentForm() {
     )
 }
 
-export default CommentForm
+export default CommentForm;
