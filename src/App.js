@@ -13,16 +13,24 @@ function App() {
 
       // const [searchText, setSearchText] = useState('');
       const [quotesInfo, setQuotesInfo] = useState([]);
+      const [categories, setCategories] = useState([])
     
-      const DATABASE = 'http://localhost:8001/quotes';
+      const QUOTESDATABASE = 'http://localhost:8001/quotes';
+      const CATEGORIESDATABASE = 'http://localhost:8001/categories';
   
       useEffect(() => {
-          fetch(DATABASE)
+          fetch(QUOTESDATABASE)
           .then(res => res.json())
           .then(quotesData => setQuotesInfo(quotesData))
       }, [])
 
-      console.log(quotesInfo)
+      useEffect(() => {
+        fetch(CATEGORIESDATABASE)
+        .then(res => res.json())
+        .then(categoriesData => setCategories(categoriesData))
+    }, [])
+
+
       // function onSearchInput(searchedValue) {
       //     setSearchText(searchedValue)
       // }
@@ -32,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <NavBar quotesInfo={quotesInfo}/>
+      <NavBar quotesInfo={quotesInfo} categories={categories}/>
       <Switch>
         <Route exact path="/">
           <Home />
