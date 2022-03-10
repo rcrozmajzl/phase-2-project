@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 .App {
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  color: #f1f1f1;
   background-image: url("./assets/bgImage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,7 +18,17 @@
 
 .header {
   margin-left: 250px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  padding: 20px 25px;
+}
+
+/* .title {
+  width: 800px;
+} */
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px 10px #0a0909;
 }
 
 nav {
@@ -23,7 +40,8 @@ nav {
   left: 0;
   background-color: rgb(37, 64, 85); /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 :link {
@@ -31,9 +49,9 @@ nav {
 }
 
 .nav-links li {
-  padding: 6px 20px 20px 6px;
+  padding: 10px 15px 20px 15px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
   color: #f1f1f1;
   display: block;
   word-wrap: normal;
@@ -82,13 +100,13 @@ nav {
 }
 
 .logo {
-  width: 150px;
+  width: 220px;
+  padding-bottom: 30px;
 }
 
 .home {
   margin-left: 250px; /* Same as the width of the sidebar */
   padding: 0px 10px;
-  color: #f1f1f1;
 }
 
 .category {
