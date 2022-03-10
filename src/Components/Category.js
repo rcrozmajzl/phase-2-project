@@ -22,7 +22,7 @@ function Category() {
 
     return (
         <div className="category">
-            <h1>{type}</h1>
+            <h2>{type}</h2>
             <div className="authorNamesDiv">
                 <div>
                     {authorLinks}
