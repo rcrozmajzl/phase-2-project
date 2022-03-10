@@ -1,6 +1,5 @@
 import React from 'react';
 // import title from '../assets/title.png'
-// import Search from './Search';
 
 function Header() {
 
@@ -8,10 +7,6 @@ function Header() {
         <div className='header'>
             <h1>Get Inspired</h1>
             {/* <img className="title" src={title} alt='title' /> */}
-            {/* <Search 
-                onSearchInput={onSearchInput}
-                searchText={searchText}
-            /> */}
         </div>
     )
 }

@@ -1,22 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
-function Search( { onSearchInput, searchText }) {
+function Search() {
 
-    function handleSearch(event) {
-        onSearchInput(event.target.value);
+    const [searchText, setSearchText] = useState('');
+    const history = useHistory();
+
+    function handleSearchSubmit(event) {
+        event.preventDefault();
+        history.push(`/search?authorName=${searchText}`)
+        setSearchText('')
     }
-
+        
     return (
-        <div className='search'>
+        <form className="search-form" onSubmit={handleSearchSubmit}>                
             <input 
                 type='text' 
                 name='search' 
-                placeholder='Author...' 
+                placeholder='Search by author...' 
                 value={searchText}
-                onChange={handleSearch}
+                onChange={event => setSearchText(event.target.value)}
             />
-        </div>
+            <button type="submit">Search</button>
+        </form>
     )
 }
 
-export default Search
+export default Search;
