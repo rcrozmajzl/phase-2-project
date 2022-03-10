@@ -1,13 +1,14 @@
 import React from 'react';
+import arrow from '../assets/arrow.png'
 
 function Home() {
 
     return (
-        <div>
-            <p>Welcome to Get Inspired!</p>
+        <div className="home">
+            <h2>Welcome to Get Inspired!</h2>
             <p>Here you can explore our collection of inspirational quotes to help you find the peace, encouragement, and motivation you need!</p>
             <h3>Browse any of our pre-selected authors by category along the left side of your screen!</h3>
-            <img src="Becca's cute arrow" alt="cute arrow pointing to the categories navigation bar"/>
+            <img className="arrow" src={arrow} alt="arrow"/>
         </div>
     )
 }

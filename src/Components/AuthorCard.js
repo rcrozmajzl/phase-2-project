@@ -29,7 +29,7 @@ function AuthorCard() {
     }
 
     return (
-        <div>
+        <div className="authorCard">
             <h2>{authorName}</h2>
             {eachQuote}
             <Comments />

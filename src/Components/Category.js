@@ -15,14 +15,19 @@ function Category() {
 
     const {type, authors} = category;
 
-    const authorLinks = authors.map((author) => <Link key={author.authorId} to={`/author/${author.authorId}`}> <li>{author.authorName}</li> </Link>)
+    const authorLinks = authors.map((author) => 
+        <Link key={author.authorId} to={`/author/${author.authorId}`}> 
+            <h2 className="authorLinks">{author.authorName}</h2> 
+        </Link>)
 
     return (
-        <div>
+        <div className="category">
             <h1>{type}</h1>
-            <ul>
-                {authorLinks}
-            </ul>
+            <div className="authorNamesDiv">
+                <div>
+                    {authorLinks}
+                </div>
+            </div>
         </div>
     )
 }
