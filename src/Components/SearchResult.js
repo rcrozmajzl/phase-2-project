@@ -27,6 +27,9 @@ function SearchResult() {
                     {authorLinks}
                 </ul>
             </div>
+            <div>
+                <br/>
+            </div>
         </div>
     )
 }
