@@ -15,13 +15,14 @@ function Search() {
     return (
         <form className="search-form" onSubmit={handleSearchSubmit}>                
             <input 
+                className="form-input"
                 type='text' 
                 name='search' 
                 placeholder='Search by author...' 
                 value={searchText}
                 onChange={event => setSearchText(event.target.value)}
             />
-            <button type="submit">Search</button>
+            <button className="submit-button" type="submit">&#x1F50E;&#xFE0E;</button>
         </form>
     )
 }

@@ -16,18 +16,19 @@ function NavBar() {
     
 
     return (
-        <nav>
-            <div>
-                <Link to='/'>
-                    <img className="logo" src={logo} alt='logo' />
-                </Link>
-            </div>
-            <Search />
-            <ul className="nav-links">
-                {categoryComponents}
-            </ul>
-
-        </nav>
+        <div className="navDiv">
+            <nav>
+                <div>
+                    <Link to='/'>
+                        <img className="logo" src={logo} alt='logo' />
+                    </Link>
+                </div>
+                <Search />
+                <ul className="nav-links">
+                    {categoryComponents}
+                </ul>
+            </nav>
+        </div>
     )
 }
 

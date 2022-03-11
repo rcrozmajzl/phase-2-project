@@ -44,7 +44,9 @@ function Comments() {
 
     return (
         <div>
-            {comment}
+            <div className="displayedComments">
+                {comment}
+            </div>
             <CommentForm 
                 handleSubmit={handleSubmit}
                 setCommentInput={setCommentInput}

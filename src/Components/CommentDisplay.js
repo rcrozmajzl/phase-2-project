@@ -12,8 +12,10 @@ function CommentDisplay({ id, content, handleDelete }) {
 
     return (
         <div>
-            {content}
-            <button className="delete-Btn"  onClick={handleDeleteBtn} >X</button>
+            <div className="individualComment">
+                {content}
+                <button className="delete-Btn"  onClick={handleDeleteBtn} >X</button>
+            </div>
         </div>
     )
 }
