@@ -1,10 +1,5 @@
 export const categories = [
-    // {
-    //     "id": 1,
-    //     "type": "Athletes",
-    //     "authors": ["Serena Williams", "Rafal Nadal", "Bode Miller", "Michael Schumacher", "Cristiano Ronaldo" ],
-    //     "authorIds": [1, 2, 3, 4, 5]
-    // },
+
     {
         "id": 1,
         "type": "Athletes",
