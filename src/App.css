@@ -218,7 +218,7 @@ nav {
 }
 
 .quotesDiv {
-  max-width: 600px;
+  height:100%;
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;

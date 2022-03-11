@@ -27,6 +27,10 @@ function NavBar() {
                 <ul className="nav-links">
                     {categoryComponents}
                 </ul>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
             </nav>
         </div>
     )
