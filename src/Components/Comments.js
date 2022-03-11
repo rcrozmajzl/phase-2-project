@@ -13,13 +13,18 @@ function Comments() {
     const {authorId} = useParams();
 
     const comment = commentArray.filter((comments) => comments.authorId === authorId)
-    .map(comments => <CommentDisplay key={comments.id} {...comments} />)
+    .map(comments => <CommentDisplay key={comments.id} {...comments} handleDelete={handleDelete} />)
 
     useEffect(() => {
         fetch(API)
             .then((res) => res.json())
             .then((data) => setCommentArray(data))
     }, []);
+
+    function handleDelete(comments) {
+        const deletedComment = commentArray.filter((comment) => comment.id !== comments)        
+        setCommentArray(deletedComment);
+    };
 
     function handleSubmit(e) {
         e.preventDefault();
