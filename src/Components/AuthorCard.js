@@ -3,6 +3,7 @@ import { useParams} from 'react-router-dom';
 import Quote from './Quote';
 import Comments from './Comments';
 import { categories} from '../categories';
+import quotes from '../assets/quotes.png'
 
 function AuthorCard() {
 
@@ -31,8 +32,18 @@ function AuthorCard() {
     return (
         <div className="authorCard">
             <h2>{authorName}</h2>
-            {eachQuote}
-            <Comments />
+            <hr/>
+            <br/>
+            <br/>
+            <div className="authorCardDiv">
+                <div className="quotesDiv">
+                <img className="quotes-image" src={quotes} alt="quotes" />
+                    {eachQuote}
+                </div>
+                <div className="commentsDiv">
+                    <Comments />
+                </div>
+            </div>
         </div>
     )
 }

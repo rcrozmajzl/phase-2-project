@@ -178,7 +178,7 @@
     {
       "id": 26,
       "quoteText": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
-      "authorId": 14,
+      "authorId": 13,
       "author": "Thomas A Edison",
       "category": "Tech Icons and Inventors"
     },
@@ -192,7 +192,7 @@
     {
       "id": 28,
       "quoteText": "The reality is that the only way change comes is when you lead by example.",
-      "authorId": 15,
+      "authorId": 14,
       "author": "Anne Wojcicki",
       "category": "Tech Icons and Inventors"
     },
@@ -206,7 +206,7 @@
     {
       "id": 30,
       "quoteText": "No computer is ever going to ask a new, reasonable question. It takes trained people to do that.",
-      "authorId": 16,
+      "authorId": 15,
       "author": "Grace Hopper",
       "category": "Tech Icons and Inventors"
     },
@@ -220,7 +220,7 @@
     {
       "id": 32,
       "quoteText": "The best way to predict your future is to create it.'",
-      "authorId": 17,
+      "authorId": 16,
       "author": "Abraham Lincoln",
       "category": "Political Figures"
     },
@@ -234,7 +234,7 @@
     {
       "id": 34,
       "quoteText": "Remember always that you not only have the right to be an individual, you have an obligation to be one.",
-      "authorId": 18,
+      "authorId": 17,
       "author": "Eleanor Roosevelt",
       "category": "Political Figures"
     },
@@ -248,7 +248,7 @@
     {
       "id": 36,
       "quoteText": "What you know today can affect what you do tomorrow. But what you know today cannot affect what you did yesterday.",
-      "authorId": 19,
+      "authorId": 18,
       "author": "Condoleeza Rice",
       "category": "Political Figures"
     },
@@ -262,7 +262,7 @@
     {
       "id": 38,
       "quoteText": "There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living.",
-      "authorId": 20,
+      "authorId": 19,
       "author": "Nelson Mandela",
       "category": "Political Figures"
     },
@@ -441,6 +441,16 @@
       "content": "who are you?",
       "authorId": "29",
       "id": 4
+    },
+    {
+      "content": "This is a much longer comment that I am trying to leave to see what it looks like",
+      "authorId": "14",
+      "id": 6
+    },
+    {
+      "content": "\"One of the things that got me interested in genetics was the relationship between genes and environment. We are all dealt a certain deck of cards, but our environment can influence the outcomes.\"",
+      "authorId": "14",
+      "id": 7
     }
   ]
 }

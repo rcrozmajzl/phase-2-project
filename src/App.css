@@ -1,11 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+/* OVERWRITE DEFAULT BROWSWER STYLING */
 * {
   padding: 0;
   margin: 0;
 }
 
+
+/* ESTABLISH DEFAULT STYLING FOR HTML ELEMENTS: H1-H4, LINKS */
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 10px #0a0909;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+
+h4 {
+  font-size: 25px;
+  /* font-weight: 200; */
+  color:black;
+}
+
+p {
+  font-size: 18px;
+}
+
+hr {
+  width: 50%;
+  margin:auto;
+}
+
+:link {
+  text-decoration: none;
+}
+
+
+
+/* APP STYLING - DEFAULT UNLESS OTHERWISE SPECIFIED */
 .App {
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -16,36 +58,20 @@
   height: 100vh;
 }
 
+
+/* HEADER STYLING */
 .header {
   margin-left: 250px; /* Same as the width of the sidebar */
   padding: 20px 25px;
   margin-bottom: 20px;
 }
 
-/* .title {
-  width: 800px;
+
+/* NAVBAR STYLING */
+/* .navDiv {
+  height: 100vh;
+  padding-bottom: 20px;
 } */
-
-h1 {
-  font-family: 'Satisfy', cursive;
-  font-size: 100px;
-  text-shadow: 2px 2px 10px #0a0909;
-}
-
-h2 {
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-
-h3 {
-
-}
-
-h4 {
-  font-size: 25px;
-  /* font-weight: 200; */
-  color:black;
-}
 
 nav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -56,12 +82,14 @@ nav {
   left: 0;
   background-color: rgb(37, 64, 85); /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: auto;
   padding-top: 30px;
   padding-left: 20px;
 }
 
-:link {
-  text-decoration: none;
+.logo {
+  width: 220px;
+  padding-bottom: 10px;
 }
 
 .nav-links li {
@@ -78,8 +106,57 @@ nav {
   color: #d0ffc6;
 }
 
+.search-form {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-rows: repeat(1, min-content);
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.form-input {
+  height: 35px;
+  max-width: 200px;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #eee;
+}
+
+.submit-buttom {
+  background-image: linear-gradient(to right, #abbaab 0%, #ffffff  51%, #abbaab  100%)}
+
+.submit-button {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;                 box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  }
+
+.submit-button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/* HOME STYLING */
+.home {
+  margin-left: 250px; /* Same as the width of the sidebar */
+  padding: 10px 210px 10px 210px;
+}
+
 .arrow {
   background-color: rgb(37, 64, 85);
+  box-shadow: 0 0 20px #eee;
   opacity: 0.6;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -89,8 +166,11 @@ nav {
   width: 500px;
 }
 
+
+/* CATEGORY STYLING */
 .category {
-  color: #f1f1f1;
+  margin-left: 250px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
 }
 
 .authorLinks{
@@ -105,37 +185,222 @@ nav {
   display: flex;
   margin: auto;
   background-color: rgb(37, 64, 85);
+  box-shadow: 0 0 20px #eee;
   opacity: 0.6;
   width: max-content;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
   border: 3px double #f1f1f1;
-  border-radius: 50%;
+  border-radius: 50px;
 
 }
 
-.logo {
-  width: 220px;
-  padding-bottom: 30px;
-}
 
-.home {
-  margin-left: 250px; /* Same as the width of the sidebar */
-  padding: 10px 210px 10px 210px;
-  
-}
-
-.category {
-  margin-left: 250px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
+/* AUTHOR CARD STYLING */
 .authorCard {
   margin-left: 250px; /* Same as the width of the sidebar */
   padding: 0px 10px;
 }
+
+.authorCardDiv {
+  margin-left: 250px;
+  margin-right: 250px;
+  display: grid;
+  grid-template-rows: repeat(1, min-content);
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.quotesDiv {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color:rgb(37, 64, 85);
+  box-shadow: 0 0 20px #eee;
+  padding: 20px 40px 20px 40px;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.quotes-image {
+  height: 100px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.quote {
+  background-color: rgb(255, 255, 255);
+  /* opacity: 0.6; */
+  color:black;
+  box-shadow: 0 0 20px #eee;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.commentsDiv {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: #0a0909;
+}
+
+.displayedComments {
+  height: 300px;
+  background-color: rgb(206, 201, 188);
+  box-shadow: 0 0 20px #eee;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.comment-form {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-rows: repeat(1, min-content);
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.displayedComments:empty:after {
+  display:inline-block;
+  content: "Be the first to share your thoughts...";
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  color:rgb(255, 255, 255);
+  position: relative;
+  top: 45%;
+}
+
+.comment-input {
+  height: 45px;
+  min-width: 300px;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #eee;
+}
+
+.individualComment {
+  text-align: left;
+  color: black;
+  min-width: 200px;
+  min-height: 30px;
+  background: whitesmoke;
+  box-shadow: 0 0 20px #eee;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 45px 10px 20px;
+  overflow: hidden;
+}
+
+.delete-Btn {
+  background-image: linear-gradient(to right, #e43a15 0%, #e65245  51%, #e43a15  100%)}
+  
+.delete-Btn {
+    margin: 10px 10px 10px 20px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 100;
+  }
+
+  .delete-Btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+
+/* SEARCH RESULTS STYLING */
+.searchResultsComponent {
+  margin-left: 250px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.searchResultsDiv {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgb(37, 64, 85);
+  box-shadow: 0 0 20px #eee;
+  opacity: 0.6;
+  border-radius: 80px;
+}
+
+.list:empty:after {
+  content: url("./assets/good-feelings-gone.gif");
+}
+
+.list {
+  display: grid;
+  grid-template-rows: repeat(10, min-content);
+  grid-auto-flow: column;
+}
+
+.authorSearchLinks {
+  list-style-type: none;
+  color: #f1f1f1;
+  font-size: 22px;
+}
+
+.authorSearchLinks:hover {
+  color: #d0ffc6;
+}
+
+
+
+.submitButton {background-image: linear-gradient(to right, #414d0b 0%, #727a17  51%, #414d0b  100%)}
+
+.submitButton {
+  margin: 10px;
+  padding: 15px 45px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.submitButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
 
 /* .App-logo {
   height: 40vmin;
