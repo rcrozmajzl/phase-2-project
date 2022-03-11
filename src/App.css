@@ -56,6 +56,7 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  overflow: auto;
 }
 
 
@@ -295,6 +296,28 @@ nav {
   box-shadow: 0 0 20px #eee;
 }
 
+.submitButton {background-image: linear-gradient(to right, #414d0b 0%, #727a17  51%, #414d0b  100%)}
+
+.submitButton {
+  margin: 10px;
+  padding: 15px 45px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.submitButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 .individualComment {
   text-align: left;
   color: black;
@@ -379,28 +402,6 @@ nav {
 }
 
 
-
-.submitButton {background-image: linear-gradient(to right, #414d0b 0%, #727a17  51%, #414d0b  100%)}
-
-.submitButton {
-  margin: 10px;
-  padding: 15px 45px;
-  font-size: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;            
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-}
-
-.submitButton:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
-}
 
 
 
