@@ -358,6 +358,8 @@ nav {
 
 .list:empty:after {
   content: url("./assets/good-feelings-gone.gif");
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .list {
